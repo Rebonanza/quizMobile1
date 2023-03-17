@@ -36,6 +36,7 @@ class _LuasLayangLayangPageState extends State<LuasLayangLayangPage> {
         },
         decoration: const InputDecoration(
           hintText: 'Diagonal 1 Layang',
+          fillColor: Colors.white70,
           filled: true,
           contentPadding: const EdgeInsets.all(8.0),
           border: OutlineInputBorder(
@@ -57,6 +58,7 @@ class _LuasLayangLayangPageState extends State<LuasLayangLayangPage> {
         },
         decoration: const InputDecoration(
           hintText: 'Diagonal 2 Layang Layang',
+          fillColor: Colors.white70,
           filled: true,
           contentPadding: const EdgeInsets.all(8.0),
           border: OutlineInputBorder(

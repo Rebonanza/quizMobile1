@@ -21,7 +21,9 @@ class _LayangLayangPageState extends State<LayangLayangPage> {
               Container(
                   padding: EdgeInsets.fromLTRB(20, 15, 20, 0),
                   child: Card(
-                      child: InkWell(
+                      child: Padding(
+                          padding: EdgeInsets.all(16.0),
+                          child: InkWell(
                     onTap: () {
                       Navigator.push(context,
                           MaterialPageRoute(builder: (context) {
@@ -33,11 +35,13 @@ class _LayangLayangPageState extends State<LayangLayangPage> {
                         Text("Luas Segitiga"),
                       ],
                     ),
-                  ))),
+                  )))),
               Container(
                   padding: EdgeInsets.fromLTRB(20, 15, 20, 0),
                   child: Card(
-                      child: InkWell(
+                      child: Padding(
+                          padding: EdgeInsets.all(16.0),
+                          child: InkWell(
                     onTap: () {
                       Navigator.push(context,
                           MaterialPageRoute(builder: (context) {
@@ -49,7 +53,7 @@ class _LayangLayangPageState extends State<LayangLayangPage> {
                         Text("Keliling Segitiga"),
                       ],
                     ),
-                  ))),
+                  )))),
             ])));
   }
 }

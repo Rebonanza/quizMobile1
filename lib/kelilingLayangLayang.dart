@@ -38,6 +38,7 @@ class _KelilingLayangLayangPageState extends State<KelilingLayangLayangPage> {
         decoration: const InputDecoration(
           filled: true,
           hintText: 'Diagonal 1 Layang',
+          fillColor: Colors.white70,
           contentPadding: const EdgeInsets.all(8.0),
           border: OutlineInputBorder(
             borderRadius: BorderRadius.all(Radius.circular(8.0)),
@@ -58,6 +59,7 @@ class _KelilingLayangLayangPageState extends State<KelilingLayangLayangPage> {
         },
         decoration: const InputDecoration(
           hintText: 'Diagonal 2 Layang Layang',
+          fillColor: Colors.white70,
           filled: true,
           contentPadding: const EdgeInsets.all(8.0),
           border: OutlineInputBorder(

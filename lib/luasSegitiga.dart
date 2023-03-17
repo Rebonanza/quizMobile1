@@ -37,6 +37,7 @@ class _LuasSegitigaPageState extends State<LuasSegitigaPage> {
         decoration: const InputDecoration(
           hintText: 'Alas Segitiga',
           filled: true,
+          fillColor: Colors.white70,
           contentPadding: const EdgeInsets.all(8.0),
           border: OutlineInputBorder(
             borderRadius: BorderRadius.all(Radius.circular(8.0)),
@@ -58,6 +59,7 @@ class _LuasSegitigaPageState extends State<LuasSegitigaPage> {
         decoration: const InputDecoration(
           filled: true,
           hintText: 'Tinggi Segitga',
+          fillColor: Colors.white70,
           contentPadding: const EdgeInsets.all(8.0),
           border: OutlineInputBorder(
             borderRadius: BorderRadius.all(Radius.circular(8.0)),

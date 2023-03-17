@@ -38,6 +38,7 @@ class _KelilingSegitigaPageState extends State<KelilingSegitigaPage> {
         },
         decoration: const InputDecoration(
           hintText: 'Alas Segitiga',
+          fillColor: Colors.white70,
           filled: true,
           contentPadding: const EdgeInsets.all(8.0),
           border: OutlineInputBorder(
@@ -59,6 +60,7 @@ class _KelilingSegitigaPageState extends State<KelilingSegitigaPage> {
         },
         decoration: const InputDecoration(
           hintText: 'Miring 1 Segitga',
+          fillColor: Colors.white70,
           filled: true,
           contentPadding: const EdgeInsets.all(8.0),
           border: OutlineInputBorder(

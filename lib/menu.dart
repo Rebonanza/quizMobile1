@@ -22,51 +22,57 @@ class _MenuState extends State<Menu> {
               Container(
                   padding: EdgeInsets.fromLTRB(20, 30, 20, 0),
                   child: Card(
-                      child: InkWell(
-                    onTap: () {
-                      Navigator.push(context,
-                          MaterialPageRoute(builder: (context) {
-                        return SegitigaPage();
-                      }));
-                    },
-                    child: Column(
-                      children: [
-                        Text("Perhitungan Segitiga"),
-                      ],
-                    ),
-                  ))),
+                      child: Padding(
+                          padding: EdgeInsets.all(16.0),
+                          child: InkWell(
+                            onTap: () {
+                              Navigator.push(context,
+                                  MaterialPageRoute(builder: (context) {
+                                return SegitigaPage();
+                              }));
+                            },
+                            child: Column(
+                              children: [
+                                Text("Perhitungan Segitiga"),
+                              ],
+                            ),
+                          )))),
               Container(
                   padding: EdgeInsets.fromLTRB(20, 30, 20, 0),
                   child: Card(
-                      child: InkWell(
-                    onTap: () {
-                      Navigator.push(context,
-                          MaterialPageRoute(builder: (context) {
-                        return LayangLayangPage();
-                      }));
-                    },
-                    child: Column(
-                      children: [
-                        Text("Perhitungan Layang-Layang"),
-                      ],
-                    ),
-                  ))),
+                      child: Padding(
+                          padding: EdgeInsets.all(16.0),
+                          child: InkWell(
+                            onTap: () {
+                              Navigator.push(context,
+                                  MaterialPageRoute(builder: (context) {
+                                return LayangLayangPage();
+                              }));
+                            },
+                            child: Column(
+                              children: [
+                                Text("Perhitungan Layang-Layang"),
+                              ],
+                            ),
+                          )))),
               Container(
                   padding: EdgeInsets.fromLTRB(20, 30, 20, 0),
                   child: Card(
-                      child: InkWell(
-                    onTap: () {
-                      Navigator.push(context,
-                          MaterialPageRoute(builder: (context) {
-                        return ProfilePage();
-                      }));
-                    },
-                    child: Column(
-                      children: [
-                        Text("Profile"),
-                      ],
-                    ),
-                  ))),
+                      child: Padding(
+                          padding: EdgeInsets.all(16.0),
+                          child: InkWell(
+                            onTap: () {
+                              Navigator.push(context,
+                                  MaterialPageRoute(builder: (context) {
+                                return ProfilePage();
+                              }));
+                            },
+                            child: Column(
+                              children: [
+                                Text("Profile"),
+                              ],
+                            ),
+                          )))),
             ])));
   }
 }

@@ -13,23 +13,23 @@ class _ProfilePageState extends State<ProfilePage> {
     return SafeArea(
         child: Scaffold(
             appBar: AppBar(
-              title: Text("Menu Utama"),
+              title: Text("Profile"),
             ),
             body: ListView(children: <Widget>[
               Container(
-                  padding: EdgeInsets.all(15),
+                  padding: EdgeInsets.fromLTRB(20, 30, 20, 0),
                   child: Card(child: Text('Nama : Giventheo Khemides'))),
               Container(
-                  padding: EdgeInsets.all(15),
+                  padding: EdgeInsets.fromLTRB(20, 30, 20, 0),
                   child: Card(child: Text('NIM = 123200063'))),
               Container(
-                  padding: EdgeInsets.all(15),
+                  padding: EdgeInsets.fromLTRB(20, 30, 20, 0),
                   child: Card(child: Text('Kelas = TPM IF-E'))),
               Container(
-                  padding: EdgeInsets.all(15),
+                  padding: EdgeInsets.fromLTRB(20, 30, 20, 0),
                   child: Card(child: Text('Hobby = Menonton Film'))),
               Container(
-                  padding: EdgeInsets.all(15),
+                  padding: EdgeInsets.fromLTRB(20, 30, 20, 0),
                   child: Card(
                       child: Image.asset('assets/images/profile.png',
                           height: 80, width: 80))),

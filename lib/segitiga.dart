@@ -21,35 +21,39 @@ class _SegitigaPageState extends State<SegitigaPage> {
               Container(
                   padding: EdgeInsets.fromLTRB(20, 15, 20, 0),
                   child: Card(
-                      child: InkWell(
-                    onTap: () {
-                      Navigator.push(context,
-                          MaterialPageRoute(builder: (context) {
-                        return LuasSegitigaPage();
-                      }));
-                    },
-                    child: Column(
-                      children: [
-                        Text("Luas Segitiga"),
-                      ],
-                    ),
-                  ))),
+                      child: Padding(
+                          padding: EdgeInsets.all(16.0),
+                          child: InkWell(
+                            onTap: () {
+                              Navigator.push(context,
+                                  MaterialPageRoute(builder: (context) {
+                                return LuasSegitigaPage();
+                              }));
+                            },
+                            child: Column(
+                              children: [
+                                Text("Luas Segitiga"),
+                              ],
+                            ),
+                          )))),
               Container(
                   padding: EdgeInsets.fromLTRB(20, 15, 20, 0),
                   child: Card(
-                      child: InkWell(
-                    onTap: () {
-                      Navigator.push(context,
-                          MaterialPageRoute(builder: (context) {
-                        return KelilingSegitigaPage();
-                      }));
-                    },
-                    child: Column(
-                      children: [
-                        Text("Keliling Segitiga"),
-                      ],
-                    ),
-                  ))),
+                      child: Padding(
+                          padding: EdgeInsets.all(16.0),
+                          child: InkWell(
+                            onTap: () {
+                              Navigator.push(context,
+                                  MaterialPageRoute(builder: (context) {
+                                return KelilingSegitigaPage();
+                              }));
+                            },
+                            child: Column(
+                              children: [
+                                Text("Keliling Segitiga"),
+                              ],
+                            ),
+                          )))),
             ])));
   }
 }
